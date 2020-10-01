@@ -9,10 +9,10 @@ android {
 
     defaultConfig {
         applicationId "com.test.github.search.user.akhmadshofimustopo"
-        minSdkVersion 19
-        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
+        minSdkVersion min_sdk_version
+        targetSdkVersion target_sdk_version
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
