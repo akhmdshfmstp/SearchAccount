@@ -85,6 +85,12 @@ android {
         unitTests.returnDefaultValues = true
     }
 
+    lintOptions {
+        abortOnError false
+        ignoreWarnings true
+        quiet true
+    }
+
 }
 
 dependencies {
