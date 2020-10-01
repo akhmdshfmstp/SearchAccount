@@ -91,6 +91,10 @@ android {
         quiet true
     }
 
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
 }
 
 dependencies {
