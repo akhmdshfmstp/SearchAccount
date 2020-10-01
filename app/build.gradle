@@ -17,7 +17,29 @@ android {
         vectorDrawables.useSupportLibrary = true
     }
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    flavorDimensions "API_ENV"
+    productFlavors {
+        dev {
+            dimension "API_ENV"
+            versionNameSuffix "-dev"
+            buildConfigField "String", "BUILD_VARIANT", '"dev"'
+
+            buildConfigField("String", "API_BASE_URL", '"https://api.github.com/"')
+
+            applicationId "com.test.github.search.user.akhmadshofimustopo.dev"
+            resValue "string", "app_name", "Akhmad Shofi Mustopo-DEV"
+            resValue "string", "package_name", "com.test.github.search.user.akhmadshofimustopo.dev"
+        }
+        production {
+            dimension "API_ENV"
+            buildConfigField "String", "BUILD_VARIANT", '"prod"'
+
+            buildConfigField("String", "API_BASE_URL", '"https://api.github.com/"')
+
+            applicationId "com.test.github.search.user.akhmadshofimustopo"
+            resValue "string", "app_name", "Akhmad Shofi Mustopo"
+            resValue "string", "package_name", "com.test.github.search.user.akhmadshofimustopo"
+        }
     }
 
     buildTypes {
