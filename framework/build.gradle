@@ -79,3 +79,8 @@ dependencies {
     debugImplementation "com.ashokvarma.android:gander-imdb:$gander_version"
     releaseImplementation "com.ashokvarma.android:gander-no-op:$gander_version"
 
+    /* image and animation */
+    api "com.airbnb.android:lottie:3.1.0"
+    api "com.github.bumptech.glide:glide:$glide_version"
+    kapt "com.github.bumptech.glide:compiler:$glide_version"
+
