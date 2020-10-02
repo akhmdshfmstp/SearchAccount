@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:padding="@dimen/_10sdp"
-    android:shape="rectangle">
+    android:shape="rectangle"
+    tools:ignore="MissingDefaultResource">
 
     <gradient
-        android:startColor="@color/btnGradientStartBlue"
+        android:angle="45"
         android:endColor="@color/btnGradientEndBlue"
-        android:type="linear"
-        android:angle="45"/>
+        android:startColor="@color/btnGradientStartBlue"
+        android:type="linear" />
 
     <corners
         android:bottomLeftRadius="8dp"
