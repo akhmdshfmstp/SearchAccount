@@ -8,13 +8,12 @@ android {
     buildToolsVersion build_tools_version
 
     defaultConfig {
-        versionCode 1
-        versionName "1.0"
         minSdkVersion min_sdk_version
         targetSdkVersion target_sdk_version
+        versionCode version_code
+        versionName version_name
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
