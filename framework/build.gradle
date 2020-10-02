@@ -62,3 +62,10 @@ dependencies {
     api "androidx.multidex:multidex:2.0.1"
     kapt "com.android.databinding:compiler:3.1.4"
     api 'androidx.paging:paging-runtime-ktx:2.1.2'
+
+    /* di and viewModel */
+    api "org.koin:koin-androidx-viewmodel:$koin_viewmodel_version"
+    api "androidx.lifecycle:lifecycle-viewmodel-ktx:$androidx_lifecycle_version"
+    api "androidx.lifecycle:lifecycle-runtime:$androidx_lifecycle_version"
+    api "androidx.lifecycle:lifecycle-extensions:$androidx_lifecycle_version"
+
