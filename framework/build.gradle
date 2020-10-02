@@ -32,6 +32,12 @@ android {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 
+    lintOptions {
+        abortOnError false
+        ignoreWarnings true
+        quiet true
+    }
+
 }
 
 dependencies {
