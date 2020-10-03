@@ -1,7 +1,7 @@
 package com.test.github.search.user.akhmadshofimustopo.datamodule.repository.user
 
 import com.test.github.search.user.akhmadshofimustopo.datamodule.service.user.UserService
-import com.test.github.user.finder.datamodule.model.dto.user.UserDto
+import com.test.github.search.user.akhmadshofimustopo.datamodule.model.dto.user.UserDto
 import kotlinx.coroutines.Deferred
 import retrofit2.Response
 
